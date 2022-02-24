@@ -18,11 +18,13 @@
     "@emotion/styled": "latest",
     "@mui/icons-material": "latest",
     "@mui/material": "latest",
+    "lodash": "^4.17.21",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest"
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.178",
     "@types/node": "latest",
     "@types/react": "latest",
     "eslint": "latest",
