@@ -1,5 +1,6 @@
 import { Theme } from '@mui/material/styles'
 import { merge } from 'lodash'
+import { CustomTheme } from '../index'
 // import Card from './Card'
 // import Lists from './Lists'
 // import Paper from './Paper'
@@ -15,7 +16,7 @@ import Button from './Button'
 
 // ----------------------------------------------------------------------
 
-export default function ComponentsOverrides(theme: Theme) {
+export default function ComponentsOverrides(theme: CustomTheme) {
   return merge(
     // Card(theme),
     // Lists(theme),

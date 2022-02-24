@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types'
 import { useMemo } from 'react'
 // material
 import { CssBaseline, ThemeOptions } from '@mui/material'
@@ -30,7 +29,7 @@ export default function ThemeConfig({ children }: { children: JSX.Element[] | JS
     return theme
   }, [])
 
-  const theme = createTheme(themeOptions)
+  const theme = createTheme(themeOptions) as any as CustomTheme
   theme.components = componentsOverride(theme)
 
   return (
